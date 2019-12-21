@@ -7,15 +7,13 @@
       <form [formGroup]="registerForm" (ngSubmit)="signup()">
         <div class="form-group row">
           <label for="firstName" class="l1">First Name</label>
-              <mat-form-field appearance = "outline"   hintLabel="Min 5 characters" class = "tp1" >
+              <mat-form-field appearance = "outline"    class = "tp1" >
                 <input type="text" matInput      formControlName="firstName" id="firstName"  
                 matInput [ngClass]="{'is-invalid':submitted && f.firstName.errors}">
                 <div *ngIf="submitted && f.firstName.errors" class="invalid-feedback">
                     <div *ngIf="f.firstName.errors.required">
                     </div>
                   </div>
-                  <div *ngIf="f.firstName.errors.minlength || f.firstName.errors.maxlength">
-                    </div>
                 </mat-form-field>
                 
               </div> 

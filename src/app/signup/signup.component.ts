@@ -24,7 +24,7 @@ export class SignupComponent implements OnInit {
   constructor(private myService: MyServiceService, private router: Router, private formBuilder: FormBuilder) { 
     this.loadStates(); }
     loadStates() {
-      var allStates = 'Alappuzha   ,    Ernakulam, 	Idukki,\
+      var allStates = 'Alappuzha   ,    Ernakulam, 	Idukki , \
                        Malappuram, Palakkad, Pathanamthitta,\
                        Thiruvananthapuram         ,\
                        	Kollam, 	Kottayam, 	Kozhikode ,\
@@ -41,11 +41,7 @@ export class SignupComponent implements OnInit {
 
   ngOnInit() {
     this.registerForm = this.formBuilder.group({
-      firstName: ['', [
-        Validators.required,
-        Validators.minLength(5),
-        Validators.maxLength(10)
-      ]],
+      firstName      : ['', Validators.required],
       lastName       : ['', Validators.required],
       email          : ['', [Validators.required, Validators.email]],
       password       : new FormControl('', [Validators.required,Validators.minLength(5)]),
