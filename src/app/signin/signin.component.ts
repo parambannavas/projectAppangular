@@ -14,7 +14,7 @@ const key = "Status";
 export class SigninComponent implements OnInit {
   registerForm: FormGroup;
   submitted = false;
-  
+  hide;
   user = new Signin(null, null);
   status: String;
   constructor(public local: LocalStorageService, private myService: MyServiceService, private router: Router

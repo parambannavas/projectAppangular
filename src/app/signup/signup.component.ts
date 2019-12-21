@@ -15,7 +15,7 @@ export interface gender {
 })
 export class SignupComponent implements OnInit {
   states; 
-
+  hide;
   userData = new Signup(null, null, null, null, null, null, null);
   registerForm: FormGroup;
   submitted = false;

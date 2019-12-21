@@ -53,8 +53,8 @@ export class CollegesComponent implements OnInit {
   Status: String;
   colleges: ICollege[];
   edit:string;
-  max:number=5;
-
+  max:Number=5;
+  p:Number;
   editClick(id){
     
     this.myService.setId(id);
