@@ -52,6 +52,7 @@ export class EditComponent implements OnInit {
 
     }
   }
+  get f() { return this.registerForm.controls; };
   onUpdate() {
     this.submitted = true;
 
