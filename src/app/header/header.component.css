@@ -1,6 +1,6 @@
 .navbar{
     height:90px;
-    background-image: url("\Users\user\Desktop\ictfinalproject\projectApp\src\assets\Images\convoc.jpg")
+    background-image: url("/assets/Images/convoc.jpg")
 }
 .signin{
     background-color:rgb(230, 137, 30);
