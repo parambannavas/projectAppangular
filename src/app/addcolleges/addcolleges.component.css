@@ -1,0 +1,54 @@
+.container{
+    margin-top: 20px;
+    
+}
+.rad{
+  margin-left: 60px;
+}
+.h2{margin-top: 0px;
+    text-shadow: 3px 3px 3px rgb(192, 88, 88);
+    padding-bottom: 30px;
+}
+.l1{margin-left:85px ;}
+
+ .tp-full-width {
+    width: 20%;
+    margin-left: 12px;
+    height: 10%
+ }
+ .tp{
+    margin-left: 20px;
+    width: 30%;
+ }
+ .tp1{
+    margin-left:80px;
+    width: 30%;
+ }
+ .tp2{
+   margin-left:90px;
+   width: 30%;
+}
+ .label1{
+   margin-left: 70px;
+ }
+ .label2{
+    margin-left: 70px
+ }
+ .label3{
+   margin-left: 70px;
+ }
+ .label4{
+   margin-left: 70px;
+ }
+ .label5{
+   margin-left: 70px;
+ }
+ .label6{
+   margin-left: 80px;
+ }
+ .btn{
+   
+      margin-left:140px;
+      
+   
+ }

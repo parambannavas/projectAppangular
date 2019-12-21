@@ -1,0 +1,31 @@
+.navbar{
+    height:90px;
+    background-image: url("\Users\user\Desktop\ictfinalproject\projectApp\src\assets\Images\convoc.jpg")
+}
+.signin{
+    background-color:rgb(230, 137, 30);
+    
+    margin-left:20px;
+    
+}
+.signup{
+    background-color:rgb(36, 230, 45);
+    margin-left:650px;
+}
+
+.colleges{
+          background-color: rgb(245, 229, 87);
+          margin-left:20px;
+}
+.addcolleges{
+background-color: rgb(255, 255, 255);
+margin-left:40px;
+}
+.home{
+    margin-right:20px; 
+}
+.bestCollege{
+    margin-left: 30px;
+    background-color: rgb(245, 229, 87);
+
+}

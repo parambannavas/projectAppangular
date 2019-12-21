@@ -1,0 +1,29 @@
+.jumbotron{
+    
+        background-color:rgb(216, 230, 204);
+        margin-bottom: 180px;
+        margin-top: 40px;
+        margin-left: 20px;
+        margin-right: 30px;
+        padding-left:80px;
+        padding-right: 0px;
+        padding-bottom:10 px;
+        padding-top:20 px;
+} 
+.btn{
+        margin-left: 320px
+}
+
+.tp1{
+        margin-left: 180px;
+        width:300px;
+}
+
+.tp2{
+        margin-left: 150px;
+        width:300px;
+}
+.l1{
+        margin-left: 100px;
+            
+}

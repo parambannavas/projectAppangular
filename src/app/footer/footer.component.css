@@ -1,0 +1,27 @@
+.footer {
+    position:float;
+    height: 85px;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color:#af943c;
+    color: white;
+    text-align: center;
+  }
+  .btn{
+    color:black;
+    font-weight: bold;
+  }
+  
+	.icon-62-0{fill:none;stroke:#BDC5D1;}
+	.icon-62-1{fill:none;stroke:#377DFF;}
+	.icon-62-2{fill:#BDC5D1;}
+	.icon-62-3{fill:#FFFFFF;stroke:#377DFF;}
+	.icon-62-4{fill:#377DFF;stroke:#377DFF;}
+  .icon-34-0{fill:#BDC5D1;}
+	.icon-34-1{fill:#FFFFFF;stroke:#BDC5D1;}
+	.icon-34-2{fill:#377DFF;}
+	.icon-34-3{fill:none;stroke:#FFFFFF;}
+	.icon-34-4{fill:none;stroke:#377DFF;}
+	.icon-34-5{fill:none;stroke:#BDC5D1;}
+

@@ -1,0 +1,84 @@
+<div class="container">
+    <div class="jumbotron" >
+      <div class="h2">
+        <h2>Add colleges</h2>
+      </div>
+      <form [formGroup]="registerForm" (ngSubmit)="onSubmit()">
+        <div class="form-group row">
+          <label for="number" class="label6">Number </label>
+          <mat-form-field appearance="outline" class = "tp1">
+            <input type="Number" matInput placeholder="" id="number" formControlName="number" >
+          </mat-form-field>
+        </div>
+        <div class="form-group row">
+          <label for="university" class="label1" >University</label>
+          <mat-form-field appearance="outline" class = "tp1">
+            <input type="text" matInput placeholder="" id="university" formControlName="university" [ngClass]="{'is-invalid':submitted && f.university.errors}">
+          </mat-form-field>
+          <div *ngIf="submitted && f.university.errors" class="invalid-feedback">
+            <div *ngIf="f.university.errors.required">
+                This field is required.
+              </div>
+             </div>
+            </div>
+          <!-- <div class="form-group row">
+            <label for="category"  class="label2">Category</label>
+            <mat-form-field class = "tp1" appearance="outline">
+              <input matInput type="text" placeholder="category" formControlName="category" [matAutocomplete] = "auto">  
+              <mat-autocomplete #auto = "matAutocomplete">
+                 <mat-option *ngFor = "let category of categories" [value] = "category.value">
+                    {{category.display}}
+                 </mat-option>
+              </mat-autocomplete>
+           </mat-form-field>
+            </div> -->
+            <div class="form-group row">
+              <label for="category" class="label1" >Category</label>
+              <mat-form-field appearance="outline" class = "tp1">
+                <input type="text" matInput placeholder="" id="category" formControlName="category" [ngClass]="{'is-invalid':submitted && f.university.errors}">
+              </mat-form-field>
+              <div *ngIf="submitted && f.category.errors" class="invalid-feedback">
+                <div *ngIf="f.category.errors.required">
+                    This field is required.
+                  </div>
+                 </div>
+                </div>
+      <div class="form-group row">
+        <fieldset>
+          <div class="form-group row">
+            <label for="AICTE" class="l1">Approval(AICTE)</label>
+            <div class="rad">
+              <input type="radio" formControlName="approval" value="Yes" checked>Yes
+              <input type="radio" formControlName="approval" value="No"> No
+            </div>
+          </div>
+        </fieldset>
+      </div>  
+            <div class="form-group row">
+                <label for="entrance"  class="label2">Entrance</label>
+                <mat-form-field class = "tp2" appearance="outline">
+                  <input matInput type="text" placeholder="entrances" formControlName="entrance" [matAutocomplete] = "auto">  
+                  <mat-autocomplete #auto = "matAutocomplete">
+                     <mat-option *ngFor = "let entrance of entrances" [value] = "entrance.value">
+                        {{entrance.display}}
+                     </mat-option>
+                  </mat-autocomplete>
+               </mat-form-field>
+                </div>
+                
+        <div class="form-group row">
+          <label for="updated" class="label5">Updated</label>
+            <mat-form-field class = "tp1">
+              <input matInput [matDatepicker] = "picker" placeholder = "Updated date" formControlName="updated" id="updated" >
+              <mat-datepicker-toggle matSuffix [for] = "picker"></mat-datepicker-toggle>
+              <mat-datepicker #picker></mat-datepicker>
+          </mat-form-field>
+        </div>
+        
+      <br>
+        <div class="btn">
+         <br> <button type="submit" class="btn btn-success">Submit</button>
+        </div>
+      </form>
+    </div>
+  </div>

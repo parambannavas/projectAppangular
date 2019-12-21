@@ -1,0 +1,53 @@
+table {
+    width: 100%;
+  }
+  .tp1{
+    width:10px;
+    height: 10%;
+  }
+
+  .form-inline{
+    margin-left: 350px;
+    margin-top: 20px;
+  }
+  
+  .mat-form-field {
+  
+    font-size: 14px;
+    width: 100%;
+  }
+  .signout{
+    background-color:aqua;
+    margin-left:800px;
+    margin-top: 10px
+
+}
+  
+  th{
+    width: 25%;
+    text-decoration: underline;
+    text-align: center;
+    font-size: 20px;
+    background-color: wheat
+   }
+  td {
+    font-size: 13px;
+    width: 25%;
+  }
+  
+  .example-second-header-row {
+    font-style: italic;
+  }
+  
+  .example-first-footer-row {
+    font-weight: bold;
+  }
+  
+  .example-second-footer-row td {
+    color: #900000;
+  }
+  
+  .mat-column-action {
+    flex: 0 0 100px;
+  }
+  

@@ -1,0 +1,28 @@
+.signout{
+    background-color:wheat;
+    margin-left:1000px;
+
+}
+.btn{
+    padding-left:20px
+}
+
+table {
+    width: 100%;
+    overflow-x: auto;
+    overflow-y: hidden;
+    min-width: 500px;
+ }
+ .mat-header-row{
+     background-color:wheat;
+     text-align: center;
+     text-decoration:underline;
+     font-weight: bold ;
+      
+ }
+.mat-header-cell{
+    font-weight: bold;
+    font-size:20px;
+    text-align: left;
+    max-width: 300px;
+}
